@@ -97,7 +97,7 @@ export default {
         dateFormat: this.dateFormat,
         allowInput: true,
         // static: true,
-        mode: this.modeType,
+        mode: 'range',
         time_24hr: !this.twelveHourTime,
         onReady() {
           self.$refs.datePicker.parentNode.classList.add('date-filter')
